@@ -69,6 +69,9 @@ TEMPLATES = [
 WSGI_APPLICATION = 'music_library_project.wsgi.application'
 
 
+REST_FRAMEWORK = {
+    'COERCE_DECIMAL_TO_STRING': False
+}
 
 
 # Password validation
