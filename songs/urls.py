@@ -3,6 +3,6 @@ from . import views
 
 
 urlpatterns = [
-    path('songs/', views.songs_list),
+    path('', views.songs_list),
 ]
 
